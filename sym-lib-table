@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name toslink-proto)(type Legacy)(uri ${KIPRJMOD}/toslink-proto.lib)(options "")(descr ""))
-  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/teensy.lib)(options "")(descr "")(disabled))
+  (version 7)
+  (lib (name "toslink-proto")(type "Legacy")(uri "${KIPRJMOD}/toslink-proto.lib")(options "")(descr ""))
+  (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/teensy.lib")(options "")(descr "")(disabled))
+  (lib (name "teensy-toslink-receiver-rescue")(type "KiCad")(uri "${KIPRJMOD}/teensy-toslink-receiver-rescue.kicad_sym")(options "")(descr ""))
 )
